@@ -5,7 +5,7 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 def bienvenida(request):
-    return HttpResponse("Estas respondiendo desde una aplicación de DJANGO")
+    return HttpResponse("Probando una vista basada en funciones")
 
 def hola_a_todos(request):
     return HttpResponse("Hola 😊")
